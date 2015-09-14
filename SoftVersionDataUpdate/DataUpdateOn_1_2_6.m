@@ -16,6 +16,8 @@
 {
     NSLog(@"正在更新版本%@", self.version);
     
+    
+    // 更新成功则返回YES, 反之则返回NO
     return YES;
 }
 
